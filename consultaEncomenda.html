@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+        
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/consultaEncomenda.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/viaCep.js"></script>
+        
+        <title>Bate Volta | Logística</title>
+        <link rel="shortcut icon" type="image/icon" href="src/icon.ico" />
+    </head>
+    <body>
+        <header class="bg-info">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+                    <img style="padding-right: 25px; width: 155px;" src="src/logo.png"/>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="consultaEncomenda.html">Rastreio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="AgenciasCliente.html">Agências</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="CotacaoCliente.html">Cotação</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-white form-inline mt-2 mt-md-0 ml-7">
+                        <label class="mr-4">Consulta sua encomenda:</label>
+                        <input class="form-control mr-sm-2" type="search" name="pdf" id="txtCodigo" placeholder="Código" aria-label="Código">
+                        <button class="btn btn-outline-light my-2 my-sm-0" id="btnCodigo">Consultar</button>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " href="index.php">Intranet</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div>
+            <div class="container mt-3" id="msgConsulta"></div>
+            <div class="container mt-3" id="tabelaConsulta"></div>
+        </div>
+        <footer style="position: fixed; bottom: 0; width: 100%;" class="navbar-fixed-bottom text-white bg-info text-center">
+            <div style="padding: 20px 0px 20px 0px;" class="container">
+              <p>Desenvolvidor por <a href="https://getbootstrap.com/">##</a></p>
+            </div>
+        </footer>
+    </body>
+</html>
